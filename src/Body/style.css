@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
 
+.contentMain{
+    overflow: hidden;
+}
 .Main{
     margin: auto;
     max-width: 1440px;
@@ -54,4 +57,27 @@
 .PhonesPp{
     margin-top: 30px;
     line-height: 35px;
+}
+.Laptop{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.LaptopContainer{
+    margin-top: 300px;
+}
+.laptopimg{
+    margin-top: 100px;
+    position: relative;
+    right: 400px;
+    overflow: hidden;
+}
+.LaptopP{
+    width: 600px;
+    position: relative;
+    right: 350px;
+    font-family: 'Overpass', sans-serif;
+}
+.Laptop{
+    margin-top: 50px;
+    margin-bottom: 35px;
 }

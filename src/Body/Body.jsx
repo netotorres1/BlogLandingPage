@@ -1,11 +1,12 @@
 import React from 'react'
 import './style.css'
 import EditorDesktop from './../data/illustration-editor-desktop.svg'
+import EditorLaptop from './../data/illustration-laptop-desktop.svg'
 import Phones from './../data/illustration-phones.svg'
 
 const Body = () => {
   return (
-    <div>
+    <div className='contentMain'>
         <section className='Main'>
             <div>
             <h1 className='MainTitle'>Designed for the future</h1>
@@ -35,6 +36,22 @@ const Body = () => {
                     </div>  
                 </div>
             </div>
+        </section>
+        <section className='Laptop'>
+            <div className='LaptopContainer'>
+                <div className='LaptopP'>
+                    <h2 className='LapttopPTitle'>Free, open, simpler</h2>
+                    <p  className='Laptop'>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+                    features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+                    and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+                </div>
+                <div className='LaptopP'>
+                    <h2 className='LapttopPTitle'>Powerful tooling</h2>
+                    <p className='Laptop'> Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                        capable of producing even the most complicated sites.</p>
+                </div>
+            </div>
+            <img className='laptopimg' src={EditorLaptop} />
         </section>
     </div>
   )

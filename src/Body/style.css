@@ -64,9 +64,12 @@
 .Laptop{
     display: flex;
     flex-direction: row-reverse;
+    width: 1440px;
+    margin: auto;
 }
 .LaptopContainer{
     margin-top: 300px;
+
 }
 .laptopimg{
     margin-top: 100px;
@@ -77,8 +80,8 @@
 .LaptopP{
     width: 600px;
     position: relative;
-    right: 350px;
     font-family: 'Overpass', sans-serif;
+    margin-top: 30px;
 }
 .Laptop{
     margin-top: 50px;
@@ -104,10 +107,18 @@
         display: flex;
         width: 80%;
         position: relative;
-        left: 25px;
+        left: 45px;
     }
     .MainImg{
         display: none;
+    }
+    .MainTitle{
+        position: relative;
+        left: 25px;
+    }
+    .MainPTitle{
+        position: relative;
+        left: 15px;
     }
     .MainP{
         margin-top: 200px;
@@ -117,6 +128,7 @@
         margin-top: 50px;
         position: relative;
         left: 30px;
+        line-height: 23px;
     }
     .Phone{
         width: 380px;
@@ -136,19 +148,34 @@
     }
     .LaptopContainer{
         width: 380px;
-        height: 1000px;
+        height: 1500px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .LaptopMobile{
         display: flex;
+        position: relative;
+        left: 1px;
+    }
+    .MainPp{
+        font-size: 15px;
+        line-height: 23px;
+        position: relative;
+        left: 20px;
+    }
+    .LapttopPTitle{
+        font-size: 20px;
+        margin: auto;
     }
     .LaptopP{
         position: relative;
-        left: 7px;
-        width: 75%;
-        height: 300px;
+        left: 10px;
+        width: 85%;
+        line-height: 23px;
+        height: 290px;
+        font-size: 15px;
+        line-height: 23px;
     }
     .Laptop{
         width: 90%;
@@ -174,7 +201,7 @@
         width: 80%;;
         position: relative;
         bottom: 170px;
-        left: -25px;
+        left: 10px;
     }
     .PhonesP{
         display: flex;
@@ -184,20 +211,24 @@
         position: relative;
         left: 60px;
         bottom: 140px;
+        font-size: 15px;
     }
     .PhonesPTitle{
         width: 80%;
-        margin: auto;
+        position: relative;
+        right: 10px;
     }
     .PhonesPp{
         text-align: center;
-        width: 60%;
+        position: relative;
+        right: 5px;
+        width: 75%;    
+        line-height: 23px;
     }
     .laptopimg{
         display: none;
     }
     .ContentMain{
         max-width: 380px;
-        box-sizing: border-box;
     }
 }

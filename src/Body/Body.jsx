@@ -45,13 +45,13 @@ const Body = () => {
                 <img className='LaptopMobile' alt='' src={EditorLaptopMobile} />
                 <div className='LaptopP'>
                     <h2 className='LapttopPTitle'>Free, open, simpler</h2>
-                    <p  className='Laptop'>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+                    <p  className='LaptopP'>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
                     features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
                     and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
                 </div>
                 <div className='LaptopP'>
                     <h2 className='LapttopPTitle'>Powerful tooling</h2>
-                    <p className='Laptop'> Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                    <p className='LaptopP'> Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
                         capable of producing even the most complicated sites.</p>
                 </div>
             </div>

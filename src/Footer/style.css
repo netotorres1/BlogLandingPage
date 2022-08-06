@@ -6,6 +6,7 @@
     margin: auto;
     background-color: hsl(237, 17%, 21%);
     border-top-right-radius: 85px;
+    box-sizing: border-box;
 }
 .ContainerFooterList{
     display: flex;
@@ -29,7 +30,7 @@
 }
 @media only screen and (max-width: 380px){
     .ContainerFooter{
-        width: 380px;
+        max-width: 380px;
         height: 800px;
         box-sizing: border-box;
     }
@@ -38,20 +39,24 @@
         width: 100px;
         margin: auto;
         margin: 90px;
-        position: relative;
-        left: -25px;
     }
     .ContainerFooterList{
         display: flex;
         flex-direction: column;
         margin: auto;
         position: relative;
-        left: 115px;
+ 
+        width: 120px;
     }
     .FooterContent{
         display: flex;
         flex-direction: column;
-        width: 380px;
+        width: 100%;
         align-items: center;
+    }
+    .listProduct{
+        width: 120px;
+        box-sizing: border-box;
+        text-align: center;
     }
 }

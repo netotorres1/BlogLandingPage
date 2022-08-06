@@ -11,7 +11,7 @@ const Footer = () => {
                 <ul className='listProduct'>
                         <li>
                             <b>Product</b>
-                        </li  >
+                        </li>
                         <li  className='listProductitem'>
                             Overview
                         </li>
@@ -32,7 +32,7 @@ const Footer = () => {
                     <li><b>Company</b></li>
                     <li  className='listProductitem'>About</li>
                     <li  className='listProductitem'>Team</li>
-                   <li  className='listProductitem'>Blog</li>
+                    <li  className='listProductitem'>Blog</li>
                     <li>Careers</li>
                 </ul>
                 <ul className='listProduct'>
@@ -41,7 +41,6 @@ const Footer = () => {
                     <li  className='listProductitem'>Newsletter</li>
                     <li  className='listProductitem'>Linkedin</li>
                 </ul>
-
             </div>
             </div>
         </div>

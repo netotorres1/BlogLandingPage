@@ -224,6 +224,10 @@
         position: relative;
         left: 300px;
     }
+    .subMenuItem{
+        border: none;
+        background-color: transparent;
+    }
     .MenuResposivo.active{
         display: flex;
         border-radius: 10px;

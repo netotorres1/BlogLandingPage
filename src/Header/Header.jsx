@@ -30,7 +30,7 @@ const Header = () => {
     <div className='Header'>
         <div className='HeaderContent'>
         <div ref={dropDownRef} className={`MenuResposivo ${isActiveMenu ? 'active' : 'inactive'}`}>
-            <button className='MenuBtn'>Product <img alt='' src={IconMenu}  onClick={onClickSubMenuProduct} /></button>
+            <button className='MenuBtn' onClick={onClickSubMenuProduct}>Product <img alt='' src={IconMenu}   /></button>
             <div ref={dropDownRef} className={`SubMenuProduct ${isActiveSubMenuProcut ? 'active' : 'inactive'}`}>
                 <button className='subMenuItem'>Overview</button>
                 <button className='subMenuItem'>Pricing</button>
@@ -38,14 +38,14 @@ const Header = () => {
                 <button className='subMenuItem'>Features</button>
                 <button  className='subMenuItem'>Integrations</button >
             </div>
-            <button className='MenuBtn'>Company <img alt='' src={IconMenu} onClick={onClickSubMenuCompany} /></button>
+            <button className='MenuBtn' onClick={onClickSubMenuCompany}>Company <img alt='' src={IconMenu}  /></button>
             <div ref={dropDownRef} className={`SubMenuCompany ${isActiveSubMenuCompany ? 'active' : 'inactive'}`}>
                 <button  className='subMenuItem'>About</button >
                 <button  className='subMenuItem'>Team</button >
                 <button  className='subMenuItem'>Blog</button >
                 <button  className='subMenuItem'>Careers</button >
             </div>
-            <button className='MenuBtn'>Connect <img alt='' src={IconMenu}  onClick={onClickSubMenuConnect} /></button>
+            <button className='MenuBtn' onClick={onClickSubMenuConnect}>Connect <img alt='' src={IconMenu}   /></button>
             <div ref={dropDownRef} className={`SubMenuConnect ${isActiveSubMenuConnect ? 'active' : 'inactive'}`} >
                 <button  className='subMenuItem'>Contact</button >
                 <button  className='subMenuItem'>Newsletter</button >

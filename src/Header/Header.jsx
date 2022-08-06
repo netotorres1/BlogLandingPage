@@ -56,7 +56,7 @@ const Header = () => {
             <button className='MenuBtnSignUp'>Sign Up</button>
         </div>
         <img className='logoMobile' alt='' src={LogoImg} />
-        <img className='iconHB' onClick={onClick4} src={Hamburguer}  />
+        <img className='iconHB' alt='' onClick={onClick4} src={Hamburguer}  />
             <div className='HeaderMenu'>
                 <div ref={dropDownRef}  className={`menu ${isActiveMenu ? 'active' : 'inactive'}`}>
                 <img className='logo' alt='' src={LogoImg} />

@@ -2,6 +2,8 @@ import React from 'react'
 import './style.css'
 import EditorDesktop from './../data/illustration-editor-desktop.svg'
 import EditorLaptop from './../data/illustration-laptop-desktop.svg'
+import EditorMobile from './../data/illustration-editor-mobile.svg'
+import EditorLaptopMobile from './../data/illustration-laptop-mobile.svg'
 import Phones from './../data/illustration-phones.svg'
 
 const Body = () => {
@@ -10,6 +12,7 @@ const Body = () => {
         <section className='Main'>
             <div>
             <h1 className='MainTitle'>Designed for the future</h1>
+            <img className='editorMobile' alt='' src={EditorMobile} />
                 <div className='MainP'>
                     <h2 className='MainPTitle'>Introducing an extensible editor</h2>
                     <p  className='MainPp'>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
@@ -23,12 +26,12 @@ const Body = () => {
                         by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
                 </div>
             </div>
-            <img className='MainImg' src={EditorDesktop} />
+            <img className='MainImg' alt='' src={EditorDesktop} />
         </section>
-        <section>
+        <section className='Phone'>
             <div className='PhonesbackgrounBlue'>
                 <div className='PhonesContent'>
-                    <img className='PhonesImg' src={Phones}/>
+                    <img className='PhonesImg' alt='' src={Phones}/>
                     <div className='PhonesP'>
                         <h1 className='PhonesPTitle' >State of the Art Infrastructure</h1>
                         <p className='PhonesPp'>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
@@ -39,6 +42,7 @@ const Body = () => {
         </section>
         <section className='Laptop'>
             <div className='LaptopContainer'>
+                <img className='LaptopMobile' alt='' src={EditorLaptopMobile} />
                 <div className='LaptopP'>
                     <h2 className='LapttopPTitle'>Free, open, simpler</h2>
                     <p  className='Laptop'>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
@@ -51,7 +55,7 @@ const Body = () => {
                         capable of producing even the most complicated sites.</p>
                 </div>
             </div>
-            <img className='laptopimg' src={EditorLaptop} />
+            <img className='laptopimg' alt='' src={EditorLaptop} />
         </section>
     </div>
   )

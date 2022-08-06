@@ -27,6 +27,7 @@
     text-decoration: none;
     color:  white;
     font-weight: bold;
+    border: none;
 }
 .HeaderLoginbtnSingUp:hover{
     background-color: white;
@@ -49,6 +50,8 @@
     border-radius: 25px;
     padding-left: 15px;
     padding-right: 15px;
+    border: none;
+    background-color: transparent;
 }
 .HeaderLoginbtn:hover{
     background-color: rgba(255, 255, 255, 0.575);
@@ -146,6 +149,10 @@
     line-height: 30px;
     padding: 15px;
 }
+.listProductitem button{
+    border: white;
+    background-color: white;
+}
 
 .menuProduct{
     display: none;
@@ -194,4 +201,150 @@
 .menuConnect{
     display: none;
     position: relative;
+}
+.iconHB{
+    height: 25px;
+    display: none;
+}
+.logoMobile{
+    display: none;
+}
+.HeaderTextp{
+    margin-top: 30px;
+}
+.MenuResposivo{
+    display: none;
+}
+
+
+@media only screen and (max-width: 380px){
+    .iconHB{
+        height: 25px;
+        display: flex;
+        position: relative;
+        left: 300px;
+    }
+    .MenuResposivo.active{
+        display: flex;
+        border-radius: 10px;
+    }
+    .MenuResposivo{
+        display: none;
+        flex-direction: column;
+        height: 490px;
+        width: 300px;
+        background-color: white;
+        position: absolute;
+        left: 35px;
+        top: 100px;
+        justify-content: space-around;
+        border-radius: 10px;
+    }
+    .MenuBtn{
+        padding: 15px;
+        background-color:hsl(0, 0%, 100%);
+        font-weight: bold;
+        border: none;
+        font-family: 'Overpass', sans-serif;
+    }
+    .menu{
+        display: none;
+        background-color: white;
+    }
+    .Header{
+        width: 380px;
+        height: 600px;
+        box-sizing: border-box;
+    }
+    .HeaderContent{
+        width: 380px;
+    }
+    .HeaderMenu{
+        display: none;
+    }
+    .HeaderText{
+       height: 300px; 
+       margin-top: 150px;
+    }
+    .HeaderTextp{
+        margin-top: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .HeaderTexth1{
+        font-size: 30px;
+        width: 350px;
+        text-align: center;
+    }
+    .HeaderLogin{
+        display: none;
+    }
+    .logoMobile{
+        position: relative;
+        top: 50px;
+        left: 30px;
+        display: flex;
+    }
+    .SubMenuProduct{
+        display: none;
+    }
+    .SubMenuProduct.active{
+        display: flex;
+        flex-direction: column;
+        height: 190px;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 13px;
+        background-color: hsla(0, 0%, 79%, 0.815);
+        width: 85%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .SubMenuCompany{
+        display: none;
+    }
+    .SubMenuCompany.active{
+        display: flex;
+        flex-direction: column;
+        height: 190px;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 13px;
+        background-color: hsla(0, 0%, 79%, 0.815);
+        width: 85%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .SubMenuConnect{
+        display: none;
+    }
+    .SubMenuConnect.active{
+        display: flex;
+        flex-direction: column;
+        height: 190px;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 13px;
+        background-color: hsla(0, 0%, 79%, 0.815);
+        width: 85%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .subMenuItem{
+        padding: 10px;
+    }
+    .MenuBtnSignUp{
+        background-image: linear-gradient(to right,hsl(13, 100%, 72%), 50%, hsl(353, 100%, 62%));
+        border-radius: 25px;
+        padding: 15px;
+        color: white;
+        width: 100px;
+        border: none;
+        font-weight: bold;
+        position: relative;
+        left: 100px;
+    }
 }

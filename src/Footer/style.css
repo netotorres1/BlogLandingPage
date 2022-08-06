@@ -23,6 +23,35 @@
     width: 90%;
     margin: auto;
 }
-.listProductitem{
+.listProductitem:hover{
     cursor: pointer;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 380px){
+    .ContainerFooter{
+        width: 380px;
+        height: 800px;
+        box-sizing: border-box;
+    }
+    .FooterIcon{
+        height: 50px;
+        width: 100px;
+        margin: auto;
+        margin: 90px;
+        position: relative;
+        left: -25px;
+    }
+    .ContainerFooterList{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        position: relative;
+        left: 115px;
+    }
+    .FooterContent{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        align-items: center;
+    }
 }

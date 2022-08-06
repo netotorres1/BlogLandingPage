@@ -4,13 +4,12 @@ import './style.css'
 
 const Footer = () => {
   return (
-    <div>
         <div className='ContainerFooter'>
             <div className='FooterContent'>
-            <img className='FooterIcon' src={Icon} />
+            <img className='FooterIcon' alt='' src={Icon} />
             <div className='ContainerFooterList'>
                 <ul className='listProduct'>
-                        <li className='listProductitem' >
+                        <li>
                             <b>Product</b>
                         </li  >
                         <li  className='listProductitem'>
@@ -37,7 +36,7 @@ const Footer = () => {
                     <li>Careers</li>
                 </ul>
                 <ul className='listProduct'>
-                    <li  className='listProductitem'><b>Connect</b></li>
+                    <li><b>Connect</b></li>
                     <li  className='listProductitem'>Contact</li>
                     <li  className='listProductitem'>Newsletter</li>
                     <li  className='listProductitem'>Linkedin</li>
@@ -46,7 +45,6 @@ const Footer = () => {
             </div>
             </div>
         </div>
-    </div>
   )
 }
 
